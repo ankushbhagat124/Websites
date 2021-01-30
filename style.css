@@ -1,0 +1,123 @@
+
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+#navbar a hover
+{
+	color: red;
+
+}
+.container
+{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+#navbar
+{
+	background-color: black;
+	color: white;
+}
+#navbar ul
+{
+	padding: none;
+	list-style: none;
+}
+#navbar li
+{
+	display:inline;
+}
+
+#navbar a
+{
+	color:white;
+	text-decoration: none;
+	font-size:18px;
+	padding-left:70px;
+	padding-right: 80px;
+}
+
+#showcase
+{
+	background-image:url('../images/background3.jpg');
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position:center right;
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+#showcase h1
+{
+	padding-top: 20px;
+	font-weight: 100px; 
+	font-size: 60px;
+	font-family: Arial Helvetica sans-serif;
+	font-size-adjust: 20px;
+	line-height: 1.4em;
+	padding-top:30px;
+	padding-bottom: 0;
+}
+.button
+{
+	padding: 5px;
+	color: white;
+	background-color: rgba(0,136,169,1);
+	border:none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+	box-sizing: border-box;
+
+}
+.button hover
+{
+	color: white;
+	background-color: rgba(120,110,50,1);
+}
+#main
+{
+	float:left;
+	width:70%;
+	padding:0 30px;
+	box-sizing: border-box;
+}
+
+#sidebar
+{
+	float:right;
+	width:30%;
+	padding:10px;
+	box-sizing: border-box;
+}
+
+#main-footer
+{
+	background: #333;
+	color:#fff;
+	text-align: center;
+	padding:20px;
+	margin-top:40px;
+}
+
+@media(max-width:600px)
+{
+	#main
+	{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar
+	{
+		width:100%;
+		float:none;
+	}
+}
